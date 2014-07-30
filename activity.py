@@ -2,7 +2,7 @@ import urllib2
 import json
 import sys
 import re
-from url import *
+from url import submit_url
 
 def start():
 	if len(sys.argv) != 2:
@@ -25,7 +25,7 @@ def verify_id(id):
 	if not regex.match(id):
 		return 0
 
-	data = json.load(urllib2.urlopen(url_listing))
+	data = json.load(urllib2.urlopen("https://s3-us-west-2.amazonaws.com/scee-interview-test/public/listing.json"))
 
 	exists = False
 	for game in data['catalog']:
@@ -40,10 +40,10 @@ def verify_id(id):
 
 def get_data(id):
 	friends = [""]*4
-	friends[0] = json.load(urllib2.urlopen(url_friend1))
-	friends[1] = json.load(urllib2.urlopen(url_friend2))
-	friends[2] = json.load(urllib2.urlopen(url_friend3))
-	friends[3] = json.load(urllib2.urlopen(url_friend4))
+	friends[0] = json.load(urllib2.urlopen("https://s3-us-west-2.amazonaws.com/scee-interview-test/public/ryu.json"))
+	friends[1] = json.load(urllib2.urlopen("https://s3-us-west-2.amazonaws.com/scee-interview-test/public/ken.json"))
+	friends[2] = json.load(urllib2.urlopen("https://s3-us-west-2.amazonaws.com/scee-interview-test/public/juri.json"))
+	friends[3] = json.load(urllib2.urlopen("https://s3-us-west-2.amazonaws.com/scee-interview-test/public/akuma.json"))
 
 	activity = []
 
@@ -64,11 +64,10 @@ def get_data(id):
 	return json.dumps(data)
 
 def submit(data):
-	
 	header = {
 		"User-Agent": "Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)"
 	}
-	req = urllib2.Request(url_submit, data, header)
+	req = urllib2.Request(submit_url, data, header)
 	res = urllib2.urlopen(req)
 
 	print res.read()
