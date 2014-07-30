@@ -1,0 +1,31 @@
+{
+  "id": 3,
+  "onlineName": "Juri",
+  "activity": [
+    {
+      "display_text": "Charted the Coast of the Western Isles.",
+      "timestamp":"2014-07-19T19:06:47+00:00",
+      "game":"B002"
+    },
+    {
+      "display_text": "Charted the coast of Cornwall.",
+      "timestamp":"2014-07-19T19:03:38+00:00",
+      "game":"B002"
+    },
+    {
+      "display_text": "Became Mars",
+      "timestamp":"2014-06-07T19:04:26+00:00",
+      "game":"D001"
+    },
+    {
+      "display_text": "Unlocked a trophy",
+      "timestamp":"2014-06-15T20:01:00+00:00",
+      "game":"0000"
+    },
+    {
+      "display_text": "Bought a game on store.",
+      "timestamp":"2014-05-10T20:11:12+00:00",
+      "game":"B001"
+    }
+    ]
+}

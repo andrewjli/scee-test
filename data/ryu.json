@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "onlineName": "Ryu",
+  "activity": [
+    {
+      "display_text": "Ryu achieved Platinum",
+      "timestamp":"2014-07-19T20:11:06+00:00",
+      "game":"C077"
+    },
+    {
+      "display_text": "Bought a game on the store.",
+      "timestamp":"2014-07-18T20:17:06+00:00",
+      "game":"C077"
+    },
+    {
+      "display_text": "Ryu streamed on Twitch",
+      "timestamp":"2014-07-17T20:026:06+00:00",
+      "game":"C077"
+    },
+    {
+      "display_text": "Ryu joined the broforce.",
+      "timestamp":"2014-06-29T20:00:06+00:00",
+      "game":"D001"
+    },
+    {
+      "display_text": "Ryu did some more war.",
+      "timestamp":"2014-06-28T17:10:13+00:00",
+      "game":"D001"
+    },
+    {
+      "display_text": "Ryu did some war.",
+      "timestamp":"2014-06-24T15:11:12+00:00",
+      "game":"D001"
+    }
+    ]
+}

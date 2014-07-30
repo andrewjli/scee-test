@@ -1,0 +1,36 @@
+{
+  "id": 2,
+  "onlineName": "Akuma",
+  "activity": [
+    {
+      "display_text": "Killed 100 enemies.",
+      "timestamp":"2014-07-19T20:11:06+00:00",
+      "game":"D001"
+    },
+    {
+      "display_text": "Bought a game on the store.",
+      "timestamp":"2014-07-18T20:17:06+00:00",
+      "game":"0000"
+    },
+    {
+      "display_text": "Akuma made a getaway.",
+      "timestamp":"2014-07-17T20:026:06+00:00",
+      "game":"0000"
+    },
+    {
+      "display_text": "Akuma unlocked a Trophy!",
+      "timestamp":"2014-06-29T17:14:06+00:00",
+      "game":"0000"
+    },
+    {
+      "display_text": "Akuma unlocked a Trophy!",
+      "timestamp":"2014-06-28T17:11:20+00:00",
+      "game":"0000"
+    },
+    {
+      "display_text": "Akuma stole a car",
+      "timestamp":"2014-06-28T17:11:12+00:00",
+      "game":"0000"
+    }
+    ]
+}
